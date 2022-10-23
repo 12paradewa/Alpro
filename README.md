@@ -15,7 +15,7 @@ Pada gambar 1 menampilkan flowchart. Flowchart adalah bagan alur program yang ma
  ![cover](https://user-images.githubusercontent.com/115130964/197373401-d903ac69-0724-49da-9207-d6edd64ff2ee.JPG)
 
 **Gambar 2** Cover<Br> 
-Tampilan diatas merupakan dimana program program menampilkan cover yang berisikan identitas pembuat program. Kemudian untuk melanjutkan ke menu berikutnya klik space di keyboard. Lalu akan muncul ke menu berikutnya.
+Tampilan diatas merupakan dimana program program menampilkan cover yang berisikan identitas pembuat program. Kemudian untuk melanjutkan ke menu berikutnya klik space di keyboard. Lalu akan muncul ke menu berikutnya.<Br> 
  ![kedua 2](https://user-images.githubusercontent.com/115130964/197373548-1a54c5e2-38e4-455c-afc8-3dc397006920.JPG)
 
 **Gambar 3.** Daftar pilihan<Br> 
