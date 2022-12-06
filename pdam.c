@@ -43,10 +43,10 @@ void notaTagihan(char *nama, char *alamat, char *golongan, char *jenis_pelanggan
         float denda1;
         float finaltotal;
         denda = tm.tm_mday - tempo;
-        if ((denda)<= 0){
+        if ((denda)<= 0){ 
             denda1 = denda - denda;
         }
-        else if((denda) <=10){
+        else if((denda) <=10){ 
             denda1 = DENDA;
         }
         finaltotal = biaya + denda1;
@@ -97,7 +97,7 @@ void notaTagihan(char *nama, char *alamat, char *golongan, char *jenis_pelanggan
         fprintf(ptr,"|| Total           : Rp. %.2f\n", finaltotal);
         fprintf(ptr,"===========================================================\n");
         system("pause");
-        fclose(ptr);
+        fclose(ptr);        
         mengulang();
 }
 
@@ -111,8 +111,8 @@ void mengulang(){
         printf("======================================================\n");
         printf(">> "); scanf("%d", &kondisi);
 
-            if(kondisi == 1){
-                jenis_fasilitas();
+            if(kondisi == 1){          
+                jenis_fasilitas();        
             }
             else if(kondisi == 2){
                 system("cls");
@@ -166,7 +166,7 @@ void jenis_rumahtangga(){
 					printf("\n|      data yang benar       |");
 					printf("\n==============================");
 			}
-
+    
 }
 void jenis_usaha(){
     int kondisi;
@@ -235,7 +235,7 @@ void jenis_fasilitas(){
 					printf("\n|      data yang benar       |");
 					printf("\n==============================");
 			}
-
+        
 }
 
 void kpa(){
@@ -292,7 +292,7 @@ void kpb(){
         printf("======================================================\n");
         printf("|| >> ");scanf("%d", &kondisi);
 
-
+        
 			if(kondisi == 1){
 				bnnb1();
 			}
@@ -330,7 +330,7 @@ void kpc(){
         printf("|| 4. 1300 VA                                       ||\n");
         printf("======================================================\n");
         printf("|| >> ");scanf("%d", &kondisi);
-
+        
 			if(kondisi == 1){
 				cnnb1();
 			}
@@ -369,7 +369,7 @@ void kpd(){
         printf("======================================================\n");
         printf("|| >> ");scanf("%d", &kondisi);
 
-
+        
 			if(kondisi == 1){
 				dnnb1();
 			}
@@ -408,7 +408,7 @@ void kpe(){
         printf("======================================================\n");
         printf("|| >> ");scanf("%d", &kondisi);
 
-
+        
 			if(kondisi == 1){
 				ennb1();
 			}
@@ -447,7 +447,7 @@ void kpf(){
         printf("======================================================\n");
         printf("|| >> ");scanf("%d", &kondisi);
 
-
+        
 			if(kondisi == 1){
 				fnnb1();
 			}
@@ -486,7 +486,7 @@ void kpg(){
         printf("======================================================\n");
         printf("|| >> ");scanf("%d", &kondisi);
 
-
+        
 			if(kondisi == 1){
 				gnnb1();
 			}
@@ -525,7 +525,7 @@ void kph(){
         printf("======================================================\n");
         printf("|| >> ");scanf("%d", &kondisi);
 
-
+        
 			if(kondisi == 1){
 				hnnb1();
 			}
@@ -564,7 +564,7 @@ void annb1(){
         printf("||                      FORMULIR                    ||\n");
         printf("||                Non Niaga Bersubsidi              ||\n");
         printf("======================================================\n");
-        printf("|| Nama                 : "); fflush(stdin); scanf("%[^\n]", nama); getchar();
+        printf("|| Nama                 : "); fflush(stdin); scanf("%[^\n]", nama); getchar(); 
         printf("|| Alamat               : "); scanf("%[^\n]", alamat); //getchar();
         printf("|| Pemakaian bulan lalu : "); scanf("%f", &pemakaianbulanlalu);
         printf("|| Pemakaian bulan ini  : "); scanf("%f", &pemakaianbulanini);
@@ -650,7 +650,7 @@ void anntb1(){
             total = pemakaian * 9600;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);    
 }
 void anntb2(){
     system("cls");
@@ -787,7 +787,7 @@ void bnntb1(){
             total = pemakaian * 9800;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total); 
 }
 void bnntb2(){
     system("cls");
@@ -821,7 +821,7 @@ void bnntb2(){
             total = pemakaian * 9950;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total); 
 }
 
 void cnnb1(){
@@ -924,7 +924,7 @@ void cnntb1(){
             total = pemakaian * 10100;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total); 
 }
 void cnntb2(){
     system("cls");
@@ -958,7 +958,7 @@ void cnntb2(){
             total = pemakaian * 10250;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total); 
 }
 
 void dnnb1(){
@@ -1061,7 +1061,7 @@ void dnntb1(){
             total = pemakaian * 10400;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total); 
 }
 void dnntb2(){
     system("cls");
@@ -1095,7 +1095,7 @@ void dnntb2(){
             total = pemakaian * 10555;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total); 
 }
 
 void ennb1(){
@@ -1198,7 +1198,7 @@ void enntb1(){
             total = pemakaian * 11000;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total); 
 }
 void enntb2(){
     system("cls");
@@ -1232,7 +1232,7 @@ void enntb2(){
             total = pemakaian * 11150;
         }
         biaya = total + adm + bpm;
-        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total);
+        notaTagihan(nama, alamat, golongan, jenis_pelanggan, adm, bpm, pemakaian, biaya, total); 
 }
 
 void fnnb1(){
@@ -1647,7 +1647,7 @@ void hnntb2(){
 }
 
 int main(){
-
+    
     cover();
     system("pause");
     system("cls");
